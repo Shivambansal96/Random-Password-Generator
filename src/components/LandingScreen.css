@@ -1,0 +1,126 @@
+#landing-screen {
+    height: 60vh;;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+
+    padding: 4%;
+
+    /* border: solid 2px cyan; */
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+
+}
+
+#first, #second, #third, #fifth {
+    display: flex;
+
+    height: 60px;
+    /* border: solid 2px red; */
+}
+
+#first .left {
+    width: 90vw;
+}
+
+
+#first .right {
+    /* border: solid 2px red; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: ; */
+
+    width: 10vw;
+}
+
+#first h1 {
+
+    /* width: 100vw; */
+    text-align: center;
+}
+
+
+#second .left {
+    /* height: 30px; */
+    width: 95vw;
+    border-radius: 10px;
+    background-color: lightgray;
+    border: solid 1px gray;
+    /* padding-left: 1%; */
+    padding: 1.5%;
+
+}
+
+#second .left input {
+    width: 100%;
+    height: 90%;
+    background-color: rgba(255, 255, 255, 0.4);
+    /* padding: 10%; */
+
+}
+
+#second .right {
+    width: 5vw;
+    /* border: solid 2px green; */
+    background-color: black;
+
+}
+
+#second .right i{
+    font-size: 30px;
+    color: red;
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* border: solid 2px blue; */
+
+}
+
+#second .right i:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+
+#third {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1%;
+}
+
+
+
+#fifth {
+    height: 40px;
+
+    /* border: solid 2px black; */
+    border: none;
+    width: 100%;
+}
+
+#fifth input {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #116bb4;
+    color: white;
+    /* font-size: 20px; */
+
+}
+
+#generate-button {
+    /* width: 100%; */
+    background-color: #116bb4;
+}
+
+#generate-button:hover {
+    background-color: green;
+    cursor: pointer;
+}
