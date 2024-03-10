@@ -35,6 +35,10 @@ function LandingScreen() {
     const [numbers, setNumbers] = useState(true);
     const [symbols, setSymbols] = useState(true);
 
+    if(characters === 0) {
+        setCharacters("");
+    }
+
     function generatePassword() {
         let characterUsed = "";
         
